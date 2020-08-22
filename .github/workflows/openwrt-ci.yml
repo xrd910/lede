@@ -158,8 +158,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          
-          
           CONFIG_PACKAGE_luci-app-siitwizard=m
           CONFIG_PACKAGE_luci-app-simple-adblock=m
           CONFIG_PACKAGE_luci-app-softethervpn=m
@@ -202,13 +200,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-wrtbwmon=m
           CONFIG_PACKAGE_luci-app-xlnetacc=y
           CONFIG_PACKAGE_luci-app-zerotier=y
-
-          
-          
-          
-          
-          
-          
           EOF
           # LuCI 主题:
           cat >> .config <<EOF
